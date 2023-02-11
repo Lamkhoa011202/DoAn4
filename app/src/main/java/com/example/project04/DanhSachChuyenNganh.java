@@ -75,6 +75,7 @@ public class DanhSachChuyenNganh extends AppCompatActivity {
             listView.setVisibility(View.VISIBLE);
             tvanhien.setVisibility(View.INVISIBLE);
         }
+
         edtSearch.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
